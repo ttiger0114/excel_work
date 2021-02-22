@@ -66,9 +66,10 @@ def main():
     #input[18] = 'ELF'    # S
     #input[19] = '5'      # T
     #input[20] = '4'      # U
-
+    test_column = [1]
     # 데이터 열 삭제 
-    for i in range(0,Column):
+    #for i in range(0,Column):
+    for i in test_column:
         j = 0
         while j < data_np.shape[0]:
             if input[i] == str(data_np[j][i]) :  # 문자열 완전 일치 
