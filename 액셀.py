@@ -3,8 +3,10 @@ import pandas as pd
 
 def main():
     #--------------------파일 경로 설정---------------
-    Location = 'C:/Users/ttige/OneDrive/Desktop/'
-    File = 'ex.xlsx'
+    #Location = 'C:/Users/ttige/OneDrive/Desktop/'
+    Location = 'C:/Users/USER/Desktop/'
+    #File = 'ex.xlsx'
+    File = 'EXCEL.xlsx'
     Output_file_name = 'result.xlsx'
     #-------------------------------------------------
 
