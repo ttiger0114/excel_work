@@ -19,7 +19,7 @@ def main():
     data_np = pd.DataFrame.to_numpy(data_pd)
     Row = int(data_np.shape[0])
     Column = int(data_np.shape[1])
-    
+
     # 변경전 출력
     print(data_pd)
 
@@ -66,7 +66,7 @@ def main():
     #input[18] = 'ELF'    # S
     #input[19] = '5'      # T
     #input[20] = '4'      # U
-   
+
     # 데이터 열 삭제 
     for i in range(0,Column):
         j = 0
@@ -82,7 +82,7 @@ def main():
 
 
     # C~~~ 목표 데이터 column 입력 및 삭제
-    
+
     #   A  B  C  D  E  F  G  H  I   K   J   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z
     #   0  1  2  3  4  5  6  7  8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  
 
@@ -99,9 +99,9 @@ def main():
 
     # 변경후 출력
     print(result)
-    
+
     # 데이터 저장
     direc = Location + Output_file_name
     result.to_excel(direc,index = False)
-    
-main()
+
+main() 
